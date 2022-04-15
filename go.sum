@@ -1,0 +1,4 @@
+github.com/Buhrietoe/go-opencl v0.0.0-20220415185155-116aa12c8df3 h1:HUOsPUCE47I32rHh4XZ1InZqY8iecuzVUhjy6EIwYo0=
+github.com/Buhrietoe/go-opencl v0.0.0-20220415185155-116aa12c8df3/go.mod h1:vrQvslPjvPXuEBDCmcrNW3/A6voTsM30tzr7OGpV1W8=
+github.com/xlab/tablewriter v0.0.0-20160610135559-80b567a11ad5 h1:gmD7q6cCJfBbcuobWQe/KzLsd9Cd3amS1Mq5f3uU1qo=
+github.com/xlab/tablewriter v0.0.0-20160610135559-80b567a11ad5/go.mod h1:fVwOndYN3s5IaGlMucfgxwMhqwcaJtlGejBU6zX6Yxw=
