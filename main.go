@@ -3,6 +3,7 @@ package main
 import (
 	_ "embed"
 	"fmt"
+	"os"
 	"strconv"
 
 	"github.com/Buhrietoe/go-opencl/cl"
@@ -16,7 +17,8 @@ func main() {
 	}
 
 	if len(platforms) == 0 {
-		panic("GetPlatforms returned 0 devices")
+		fmt.Println("GetPlatforms returned 0 devices")
+		os.Exit(1)
 	}
 
 	devices, err := platforms[0].GetDevices(cl.DeviceTypeAll)
@@ -25,7 +27,8 @@ func main() {
 	}
 
 	if len(devices) == 0 {
-		panic("GetDevices returned 0 devices")
+		fmt.Println("GetDevices returned 0 devices")
+		os.Exit(1)
 	}
 	device := devices[0]
 
