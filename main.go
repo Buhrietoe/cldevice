@@ -15,6 +15,10 @@ func main() {
 		fmt.Println(err)
 	}
 
+	if len(platforms) == 0 {
+		panic("GetPlatforms returned 0 devices")
+	}
+
 	devices, err := platforms[0].GetDevices(cl.DeviceTypeAll)
 	if err != nil {
 		fmt.Println(err)
