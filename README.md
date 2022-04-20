@@ -1,5 +1,5 @@
 # Go OpenCL Device
-This shows the first available opencl compatible device, in Go!
+This shows all available opencl compatible devices, in Go!
 
 `go install -v github.com/Buhrietoe/cldevice@latest`
 
