@@ -17,7 +17,7 @@ func main() {
 	}
 
 	if len(platforms) == 0 {
-		fmt.Println("GetPlatforms returned 0 devices")
+		fmt.Println("== Found 0 OpenCL platforms ==")
 		os.Exit(1)
 	}
 
@@ -27,7 +27,7 @@ func main() {
 	}
 
 	if len(devices) == 0 {
-		fmt.Println("== Found 0 OpenCL devices")
+		fmt.Println("== Found 0 OpenCL devices ==")
 		os.Exit(1)
 	} else if len(devices) == 1 {
 		fmt.Println("== Found 1 OpenCL device ==")
